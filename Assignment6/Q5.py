@@ -1,3 +1,7 @@
+#Add 'ing' at the end where string length>=3
+#if string ends with 'ing' then add 'ly'
+#if string length<3,unchanged.
+
 def add(str1):
     length=len(str1)
     if length>2:

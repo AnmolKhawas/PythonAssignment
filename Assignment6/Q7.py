@@ -1,3 +1,5 @@
+#Recursive function to calculate length of a string.
+
 def length(str):
     if str=='':
         return 0
